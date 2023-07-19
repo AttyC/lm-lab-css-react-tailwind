@@ -16,7 +16,7 @@ export const Card: React.FC<IProperty> = ({ property: { title, location, country
 
     return (
       <>
-        <li className='flex justify-between m-8 border-gray-100 border-2 text-base hover:shadow-xl hover:scale-105 transition-transform duration-500'>
+        <li className='flex justify-between m-8 border-gray-100 border-2 text-base text-left hover:shadow-xl hover:scale-105 transition-transform duration-500'>
           <div className='flex-col p-8'>
             <h4 className='text-xl font-semibold'>{title}</h4>
             <div className='address flex my-2'>
